@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.body{
+    margin: 0 auto;
+}
+
+#navbar {
+	position: fixed;
+	top: 0;
+    font-family:  'Times New Roman', Calibri, sans-serif;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	position: fixed;
+	left: 0;
+	background-color: rgb(12, 98, 78);
+	height: 4rem;
+
+}
+
+ul {
+	display: flex;
+	
+	margin-right: 3rem;
+	align-items: center;
+
+
+}
+
+ul li {
+	list-style: none;
+
+}
+
+ul a {
+	display:block;
+	text-decoration: none;
+	color: rgb(225, 253, 253);
+	font-size: 1.5rem;
+	padding:1rem;
+	
+}
+
+ul a:hover{
+	background:rgb(9, 68, 54);
+}
+.menu{
+    margin-left: 100px;
+    margin-top: 40px;
+    color: white;
+    font-family:'Times New Roman', Calibri, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 300px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.menu:hover{
+    color:darkblue;
+    font-weight: 500;
+}
+.title{
+    
+   
+    width: 100%;
+    text-align: center;
+    color: #506a79;
+    font-family: 'Times New Roman', Calibri, sans-serif;
+    margin-top: 100px;
+    display:block
+   
+
+}
+.undertitle{
+    color: rgb(30, 167, 189);
+    font-family: 'Times New Roman', Calibri, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+.subtitlu{
+    font-family: 'Times New Roman', Calibri, sans-serif;
+    color: rgb(30, 167, 189);
+    width: 100%;
+   text-align: left;
+    margin-left:130px;
+}
+.text{
+    display:block;
+    margin: 25px 90px;
+    font-family: 'Times New Roman', Calibri, sans-serif;
+    color: #084c73;
+    font-size: 20px;
+    text-indent: 40px;
+}
+.img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+header{
+    position: sticky;
+    top:0;
+    background-color:rgb(38, 135, 113);
+}
+.subscribe{
+    width:1000px;
+    padding:10px;
+    color:darkblue
+}
+.subscribe_input{
+    width: 200px;
+    padding: 5px;
+    color:darkblue
+}
+.subscribe_button{
+    background-color: darkblue;  
+    border: 6px;
+}
+.subscribe_button:hover{
+    color:darkblue;
+    width: 10px
+}
+input[type="text"], select, textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid black;
+    margin-top: 10px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
